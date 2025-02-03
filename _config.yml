@@ -114,7 +114,7 @@ analytics:
 # Site Author
 author:
   name             : "Agnieszka Międlar"
-  avatar           : "/assets/images/Miedlar_Photo.jpg"
+  avatar           : "assets/images/Miedlar_Photo.jpg"
   bio              : "Associate Professor, Department of Mathematics, Virginia Tech"
   location         : 416, D&DS, Blacksbug, VA
   email            : amiedlar@vt.edu

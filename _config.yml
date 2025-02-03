@@ -115,9 +115,9 @@ analytics:
 author:
   name             : "Your Name"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : /pages/about.md
+  location         : 416, D&DS, Blacksbug, VA
+  email            : amiedlar@vt.edu
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

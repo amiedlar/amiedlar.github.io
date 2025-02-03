@@ -113,9 +113,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Agnieszka Międlar"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : /pages/about.md
+  bio              : "/pages/about.md"
   location         : 416, D&DS, Blacksbug, VA
   email            : amiedlar@vt.edu
   links:

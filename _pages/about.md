@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<p style="text-align: justify;">
+<p class ="text-block", style="text-align: justify;">
 <img src="/images/Miedlar_avatar.jpg" 
      alt="Agnieszka Międlar">  
 My name is Agnieszka Międlar and I am an Associate Professor of Computational Mathematics in the <a target="blank_" href="https://math.vt.edu/">Department of Mathematics</a> at Virginia Tech and the <a target="blank_"
@@ -15,7 +15,8 @@ href= "https://data.science.vt.edu/programs/cmda.html">Division of Computational
 I am a native of Poland. I received my Master's degree in Computer Science from the <a target="blank_"
 href= "https://pwr.edu.pl/en/">Wrocław University of Technology</a>, Poland and my PhD in Mathematics from the <a target="blank_"
 href="https://www.tu.berlin/en/">Technical University of Berlin</a>, Germany. Before joining Virginia Tech, I was an Associate Professor in the Department of Mathematics at the University of Kansas.
-
+</p>
+<p class="text-block", style="text-align: justify;">
 My previous positions include a Postdoctoral Associate in the Department of Computer Science and Engineering at the University of Minnesota, a Guest Professor in the Institute of Mathematics at the Technical University of Berlin, Germany, a Postdoctoral Researcher at MATHICSE at EPFL Lausanne, Switzerland, and a W2 Deputy Professor for Mathematical Optimization at the Carl-Friedrich-Gauß Faculty at the Technical University of Braunschweig, Germany.
 </p>
 

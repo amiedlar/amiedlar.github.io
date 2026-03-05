@@ -11,8 +11,8 @@ locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Agnieszka Międlar"
 title_separator          : "-"
-name                     : &name "Agnieszka Międlar"
-description              : &description "Associate Professor at Department of Mathematics and Division of Computational Modeling and Data Analytics, Virginia Tech, USA"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : "Agnieszka Międlar"
+description              : "Associate Professor at Department of Mathematics and Division of Computational Modeling and Data Analytics, Virginia Tech, USA"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://amiedlar.github.io
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "amiedlar/amiedlar.github.io"

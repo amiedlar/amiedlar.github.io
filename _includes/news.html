@@ -1,4 +1,5 @@
 <section class="news-section">
+   <h2></h2>
   <ul class="news-list">
     {% assign news = site.data.news | sort: "date" | reverse %}
     {% for item in news limit:4 %}

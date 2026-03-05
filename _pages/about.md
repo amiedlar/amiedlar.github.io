@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<p class ="text-block, style="text-align: justify;">
+<p style="text-align: justify;">
 <img src="/images/Miedlar_avatar.jpg" 
      alt="Agnieszka Międlar"
   style="float: right; margin: 0 0 1.5em 2em; width: 220px; border-radius: 4px; box-shadow: 0 2px 12px rgba(0,0,0,0.12);">  

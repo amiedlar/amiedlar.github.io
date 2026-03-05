@@ -34,7 +34,8 @@ author:
   # address          : "460 McBryde Hall<br>Blacksburg, VA 24061<br>USA"
 
   # Academic websites
-  academia         : "https://math.vt.edu/people/faculty/miedlar-agnieszka.html"
+  academia         : # URL
+                     # "https://math.vt.edu/people/faculty/miedlar-agnieszka.html"
   arxiv            : "https://arxiv.org/search/math?searchtype=author&query=Miedlar,+A"
   googlescholar    : "https://scholar.google.com/citations?user=cCXy3ygAAAAJ&hl=en"
   inspire-hep      : # URL

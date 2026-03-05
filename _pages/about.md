@@ -7,12 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-<p class="text-block">
-<img class="mainprofilepic" src="/images/Miedlar_avatar.jpg" 
-     alt="Agnieszka Międlar">
+<div style="text-align: justify;">
+
+<img src="/images/Miedlar_avatar.jpg" 
+     alt="Agnieszka Międlar" 
+     style="float: right; margin: 0 0 1.5em 2em; width: 220px; border-radius: 4px; box-shadow: 0 2px 12px rgba(0,0,0,0.12);">
+
 My name is Agnieszka Międlar and I am an Associate Professor of Computational Mathematics in the <a target="blank_" href="https://math.vt.edu/">Department of Mathematics at Virginia Tech</a> and the <a target="blank_"
 href= "https://data.science.vt.edu/programs/cmda.html">Computational Modeling and Data Analytics (CMDA)</a> program in the <a target="blank_" href="https://data.science.vt.edu">Academy of Data Science</a>. My primary research interests lie broadly in numerical analysis, with a particular focus on numerical linear algebra and scientific computing.
-</p>
+</div>
 <p class ="text-block">
 I am a native of Poland. I received my Master's degree in Computer Science from the <a target="blank_"
 href= "https://pwr.edu.pl/en/">Wrocław University of Technology</a>, Poland and my PhD in Mathematics from the <a target="blank_"

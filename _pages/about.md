@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+About 
+=======
 <div style="text-align: justify;">
 <img src="/images/Miedlar_avatar.jpg" 
      alt="Agnieszka Międlar" 
@@ -22,5 +24,8 @@ href="https://www.tu.berlin/en/">Technical University of Berlin</a>, Germany. Be
 </br>
 <div style="text-align: justify;">
 My previous positions include a Postdoctoral Associate in the <a target="blank_" href="https://cse.umn.edu/cs">Department of Computer Science and Engineering at the University of Minnesota</a>, a Guest Professor in the <a target="blank_" href="https://www.tu.berlin/en/math">Institute of Mathematics at the Technical University of Berlin</a>, Germany, a Postdoctoral Researcher at <a target ="blank_" href="https://www.epfl.ch/labs/mathicse/">MATHICSE at EPFL Lausanne, Switzerland, and a W2 Deputy Professor for Mathematical Optimization at the <a target="blank_" href="https://www.tu-braunschweig.de/en/fk1">Carl-Friedrich-Gauß Faculty at the Technical University of Braunschweig</a>, Germany.
+
+News
+======
 
 

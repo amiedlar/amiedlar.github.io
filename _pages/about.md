@@ -18,4 +18,6 @@ I am a native of Poland. I received my Master's degree in Computer Science from 
 My previous positions include a Postdoctoral Associate in the Department of Computer Science and Engineering at the University of Minnesota, a Guest Professor in the Institute of Mathematics at the Technical University of Berlin, Germany, a Postdoctoral Researcher at MATHICSE at EPFL Lausanne, Switzerland, and a W2 Deputy Professor for Mathematical Optimization at the Carl-Friedrich-Gauß Faculty at the Technical University of Braunschweig, Germany.
 </p>
 
-{% include news.html %}
+Latest News!
+======
+include news.html

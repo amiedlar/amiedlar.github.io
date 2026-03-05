@@ -30,7 +30,7 @@ author:
   employer         : "Virginia Tech"
   uri              : # URL
   email            : "amiedlar@vt.edu" 
-  address          : "460 McBryde Hall<br>Blacksburg, VA 24061<br>USA"
+  # address          : "460 McBryde Hall<br>Blacksburg, VA 24061<br>USA"
 
   # Academic websites
   academia         : # URL

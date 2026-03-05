@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<p class ="text-block">
+<p class ="text-block, style="text-align: justify;">
 <img src="/images/Miedlar_avatar.jpg" 
      alt="Agnieszka Międlar">  
 My name is Agnieszka Międlar and I am an Associate Professor of Computational Mathematics in the <a target="blank_" href="https://math.vt.edu/">Department of Mathematics at Virginia Tech</a> and the <a target="blank_"

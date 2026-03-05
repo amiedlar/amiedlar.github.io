@@ -6,6 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
+
 <p class ="text-block">
 <img src="/images/Miedlar_avatar.jpg" 
      alt="Agnieszka Międlar">  

@@ -26,8 +26,8 @@ author:
   name             : "Agnieszka Międlar"
   pronouns         : # example: "she/her"  
   bio              : "Associate Professor at Virginia Tech, Blacksburg, USA"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Blacksburg, VA"
+  employer         : "Virginia Tech"
   uri              : # URL
   email            : "amiedlar@vt.edu" 
 
@@ -50,12 +50,11 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/amiedlar"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  github           : "https://github.com/amiedlar"
   linkedin         : # Username
   orcid            : 
   wikipedia        : # Username

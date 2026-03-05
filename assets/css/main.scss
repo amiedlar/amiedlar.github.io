@@ -41,23 +41,3 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-
-.news-list {
-  list-style: none;
-  padding: 0;
-}
-.news-list li {
-  display: flex;
-  gap: 1.2em;
-  padding: 0.6em 0;
-  border-bottom: 1px solid #eee;
-  font-size: 0.92em;
-  align-items: baseline;
-}
-.news-date {
-  min-width: 70px;
-  font-weight: 500;
-  color: #8b1a1a;
-  font-size: 0.82em;
-  letter-spacing: 0.03em;
-}

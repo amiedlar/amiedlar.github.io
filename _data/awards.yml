@@ -1,0 +1,34 @@
+# Honors and Awards on the Research page, newest first.
+# Each entry: heading (bold), dates (right), detail (second line), location (right, under the dates).
+- heading: "ICERM Research Fellow"
+  dates: "January 20 – April 24, 2026"
+  detail: "Spring 2026 Semester Program <em>Stochastic and Randomized Methods for Computational and Data Sciences</em>, Institute for Computational and Experimental Research in Mathematics (ICERM)"
+  location: "Brown University, Providence, RI"
+
+- heading: "IPAM Senior Fellow"
+  dates: "September 11 – December 15, 2023"
+  detail: "Fall 2023 Long Program <em>Mathematical and Computational Challenges in Quantum Computing</em>, Institute for Pure and Applied Mathematics (IPAM)"
+  location: "UCLA, Los Angeles, CA"
+
+- heading: "Integrated Arts Research Initiative (IARI) Faculty Research Fellow"
+  dates: "Spring 2021"
+  detail: "Spencer Museum of Art"
+  location: "Lawrence, KS"
+
+- heading: "Polish National Agency for Academic Exchange, Program PROM"
+  dates: "May 22–29, 2020"
+  detail: "Postponed due to COVID-19"
+
+- heading: "Research in Pairs"
+  dates: "January 11–24, 2015"
+  detail: "Mathematisches Forschungsinstitut Oberwolfach"
+  location: "Oberwolfach, Germany"
+
+- heading: "Deutsche Forschungsgemeinschaft (DFG) Research Fellowship"
+  dates: "March – November 2014"
+  detail: "Postdoctoral Research Fellowship at École Polytechnique Fédérale de Lausanne (EPFL)"
+  location: "Lausanne, Switzerland"
+
+- heading: "GAMM Juniors"
+  dates: "November 2011 – September 2014"
+  detail: "Gesellschaft für Angewandte Mathematik und Mechanik (GAMM): young researchers nominated for an excellent diploma/master and/or PhD thesis in Applied Mathematics or Mechanics"

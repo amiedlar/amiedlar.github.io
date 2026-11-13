@@ -1,0 +1,39 @@
+# People page (research group). Sections appear in this order; a section with no entries still shows its heading.
+#
+# Current members (shown as cards) — fields, all optional except name:
+#   - name: "First Last"
+#     photo: "people/first-last.jpg"   # file in images/people/; without it the card shows the person's initials
+#     url: "https://..."               # personal page; makes the name a link
+#     cv: "https://..."                # CV link; with url, shown as "Website · CV" on the card
+#     role: "PhD student, Mathematics" # position and program
+#     dates: "2023 – present"
+#     topic: "Randomized eigensolvers"  # research topic
+#     coadvisor: "Prof. N. N."          # shown as "Co-advised with ..."
+#
+# Alumni (shown as rows) — fields:
+#   - name: "First Last"
+#     url: "https://..."
+#     degree: "PhD, Mathematics, 2024"  # or "Postdoc, 2021 – 2023"
+#     thesis: "Thesis title"
+#     now: "Postdoctoral researcher at ..."   # first position after the group
+
+- title: "Postdoctoral Researchers"
+  members: []
+
+- title: "Graduate Students"
+  members:
+    - name: "Rudi Smith"
+      photo: "people/rudi-smith.jpg"
+      url: "https://smithrgh.github.io/"
+      cv: "https://smithrgh.github.io/cv/"
+      role: "PhD Student, Applied Mathematics"
+      dates: "August 2024 – present"
+      topic: "Randomized tensor methods and numerical linear algebra for model reduction"
+      coadvisor: "S. W. R. Werner"
+
+- title: "Undergraduate Students"
+  members: []
+
+- title: "Alumni"
+  alumni: true
+  members: []

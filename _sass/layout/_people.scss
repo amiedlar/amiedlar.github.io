@@ -1,0 +1,21 @@
+/* ==========================================================================
+   PEOPLE (research group): member cards in a grid, one column on phones
+   ========================================================================== */
+
+.people-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.5rem; margin: 1rem 0 .5rem; }
+.person { display: flex; flex-direction: column; align-items: center; text-align: center; }
+.person__photo { width: 140px; height: 140px; border-radius: 50%; object-fit: cover; margin-bottom: .75rem; border: 1px solid var(--global-border-color); }
+.person__initials { display: flex; align-items: center; justify-content: center; font-size: 2.2rem; font-weight: 600; color: var(--global-text-color-light); background: var(--global-border-color); }
+.person__body p { margin: 0 0 .2rem; }
+.person__name { font-weight: 600; font-size: 1.02rem; }
+.person__name a { color: var(--global-text-color); }
+.person__role, .person__dates { font-size: .9rem; }
+.person__topic { font-size: .88rem; font-style: italic; }
+
+@media (max-width: 600px) {
+  .people-grid { grid-template-columns: 1fr; }
+  .person { flex-direction: row; align-items: center; text-align: left; gap: 1rem; }
+  .person__photo { width: 88px; height: 88px; margin-bottom: 0; flex: 0 0 88px; }
+  .person__initials { font-size: 1.5rem; }
+}
+.person__links { font-size: .88rem; margin-top: .3rem !important; }

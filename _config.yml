@@ -33,7 +33,8 @@ author:
   uri              : # URL
   email            : "amiedlar@vt.edu" 
   affiliation      : |   # shown right under the title (bio) in the sidebar, one line per line
-    Department of Mathematics and the Computational Modeling and Data Analytics (CMDA)
+    Department of Mathematics
+    Computational Modeling and Data Analytics (CMDA)
     Virginia Tech
   address          : |   # shown under the "Mail address:" heading in the sidebar, one line per line
     460 McBryde Hall
@@ -214,7 +215,7 @@ kramdown:
 # These settings control the types of collections used by the template
 collections:
   teaching:
-    output: true
+    output: false   # courses are listed on /teaching/ only, no page per course
     permalink: /:collection/:path/
   publications:
     output: true

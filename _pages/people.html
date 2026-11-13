@@ -1,0 +1,44 @@
+---
+layout: archive
+title: "People"
+permalink: /people/
+author_profile: true
+---
+{% include base_path %}
+{% comment %} Research group from _data/people.yml: current members as cards, alumni as rows {% endcomment %}
+{% for section in site.data.people %}
+  <h2 class="rs-cvhead">{{ section.title }}</h2>
+  {% if section.alumni %}
+    {% for p in section.members %}
+      <div class="rs-cvrow">
+        <p class="rs-cvrow__head">{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</p>
+        <p class="rs-cvrow__date">{{ p.degree }}</p>
+        <p class="rs-cvrow__detail">{% if p.thesis %}‘{{ p.thesis }}’{% endif %}</p>
+        <p class="rs-cvrow__loc">{{ p.now }}</p>
+      </div>
+    {% endfor %}
+  {% else %}
+    {% if section.members.size > 0 %}
+      <div class="people-grid">
+        {% for p in section.members %}
+          <div class="person">
+            {% if p.photo %}
+              <img class="person__photo" src="{{ p.photo | prepend: '/images/' | prepend: base_path }}" alt="{{ p.name }}">
+            {% else %}
+              {% assign words = p.name | split: ' ' %}
+              <span class="person__photo person__initials" aria-hidden="true">{{ words.first | slice: 0 }}{{ words.last | slice: 0 }}</span>
+            {% endif %}
+            <div class="person__body">
+              <p class="person__name">{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</p>
+              {% if p.role %}<p class="person__role">{{ p.role }}</p>{% endif %}
+              {% if p.dates %}<p class="person__dates">{{ p.dates }}</p>{% endif %}
+              {% if p.topic %}<p class="person__topic">{{ p.topic }}</p>{% endif %}
+              {% if p.coadvisor %}<p class="person__topic">Co-advised with {{ p.coadvisor }}</p>{% endif %}
+              {% if p.url or p.cv %}<p class="person__links">{% if p.url %}<a href="{{ p.url }}">Website</a>{% endif %}{% if p.url and p.cv %} · {% endif %}{% if p.cv %}<a href="{{ p.cv }}">CV</a>{% endif %}</p>{% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    {% endif %}
+  {% endif %}
+{% endfor %}

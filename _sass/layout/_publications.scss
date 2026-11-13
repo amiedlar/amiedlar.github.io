@@ -3,9 +3,9 @@
    ========================================================================== */
 
 .rs-me { font-weight: 600; }
-.rs-paper__authors { font-size: .9rem; color: var(--global-text-color-light); margin: 0 0 .6rem; }
+.rs-paper__authors { font-size: .9rem; color: var(--global-text-color); margin: 0 0 .6rem; }
 
-.archive__item-title .rs-pubnum { color: var(--global-text-color-light); font-weight: 600; margin-right: .45em; font-variant-numeric: tabular-nums; }
+.archive__item-title .rs-pubnum { color: var(--global-text-color); font-weight: 600; margin-right: .45em; font-variant-numeric: tabular-nums; }
 .list__item .archive__item { padding: 0 0 .2rem; }
 .list__item .archive__item-title { margin: 1.5rem 0 .3rem; }
 .list__item .archive__item p { margin: 0 0 .3rem; }
@@ -33,4 +33,5 @@ button.rs-pill { font: inherit; font-weight: 600; background: none; cursor: poin
 .archive__item-title { font-weight: 600; }
 .archive__item-title a { color: var(--global-text-color); text-decoration: none; }
 .archive__item-title a:hover { color: var(--global-link-color); text-decoration: underline; text-underline-offset: 3px; }
-.rs-paper__authors .rs-me { color: var(--global-text-color); }
+.rs-scholar { font-size: 1em; }
+.rs-scholar .rs-pill { font-size: .82em; }

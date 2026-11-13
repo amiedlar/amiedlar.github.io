@@ -1,0 +1,16 @@
+# Education on the CV page, newest first.
+# Each entry: heading (degree, bold), dates (right), detail (university), location (right column).
+- heading: "Dr. rer. nat. in Mathematics"
+  dates: "August 2007 – March 2011"
+  detail: "Technische Universität Berlin"
+  location: "Berlin, Germany"
+
+- heading: "Mgr. inż. in Computer Science"
+  dates: "October 2002 – July 2007"
+  detail: "Politechnika Wrocławska"
+  location: "Wrocław, Poland"
+
+- heading: "Socrates-Erasmus, Computer Science"
+  dates: "March 2007 – July 2007"
+  detail: "Universität Paderborn"
+  location: "Paderborn, Germany"

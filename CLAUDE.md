@@ -6,7 +6,7 @@ It is a Jekyll site based on the AcademicPages template (GitHub Pages).
 ## Reference design
 
 The site's structure should follow https://smithrgh.github.io (source: https://github.com/smithrgh/smithrgh.github.io, also an AcademicPages fork):
-- Main menu (`_data/navigation.yml`): Research, Publications, Teaching, Presentations and Talks (`/talks/`), Software, CV
+- Main menu (`_data/navigation.yml`): Research, Publications, Teaching, Presentations and Talks (`/talks/`), Software, People, CV
   (order and the "Presentations and Talks" label set at her request; they differ from the reference on purpose).
 - Publications page: grouped by category, numbered within each category, title linking to the publication page,
   an authors/citation line, then link pills (BibTeX pop-up, Preprint, Code, ...). No excerpts in the list.
@@ -22,8 +22,9 @@ The site's structure should follow https://smithrgh.github.io (source: https://g
 - Menu matches the reference and is in the header of every page, homepage included (`_includes/masthead.html`).
   All items have the `persist` class so they never collapse into the ☰ button; the first item's label is
   `masthead_title` ("Home") in `_config.yml`.
-- Research (`_pages/research.md`) and Software (`_pages/software.html`) are empty stubs;
-  Talks (`/talks/`, titled "Presentations and Talks"), Teaching and CV (`_pages/cv.md`) are empty and waiting for real content.
+- Software (`_pages/software.html`) is an empty stub;
+  CV (`_pages/cv.md`, title "Curriculum Vitae", menu label stays "CV"): name line, then sections "Education"
+  (`_data/education.yml`), "Employment History" (`_data/employment.yml`) and "Invited Research Stays" (`_data/research_stays.yml`; canceled visits left out), newest first.
 - Template sample entries in `_talks/`, `_teaching/` and the sample publication were removed.
 - Still left from the template: sample attachments in `files/` (`paper1–3.pdf`, `slides1–3.pdf`, `bibtex1.bib`; nothing links to them),
   and unused sample pages/collections not in the menu (portfolio, blog posts in `_posts/`, `_pages/markdown.md`, etc.).
@@ -40,6 +41,46 @@ The site's structure should follow https://smithrgh.github.io (source: https://g
   (menu is one swipeable row, no ☰; sidebar shows photo + links without "Follow"; homepage photo `.about__photo` moves above the text).
   The sidebar photo keeps the theme size (max 175px, round): `images/Miedlar.jpg` is portrait, so filling the sidebar made it huge.
 - Keep every change phone-friendly; check at ~375px width as well as desktop.
+
+## Teaching
+
+- Same structure as https://smithrgh.github.io/teaching/: one row per file in `_teaching/`, newest `date` first, rendered by
+  `_includes/rs-cvrow.html` (styles `_sass/layout/_cvrow.scss`): bold `heading` + `dates` on the right, `detail` + `location`
+  on the right, then the `items` bullet list.
+- Rows: one per level and institution, e.g. `_teaching/virginia-tech-undergraduate.md` (heading "Undergraduate Courses",
+  detail "Virginia Tech"), `virginia-tech-graduate.md` ("Graduate Courses"). Courses are `items` like
+  "MATH 2114H: Introduction to Linear Algebra (Spring 2027)", newest first; update `dates` (range) and `date` (most recent term).
+  `summer-winter-schools.md` ("Summer and Winter Schools", kept last via an old `date`) is ready for entries.
+  University of Kansas rows: add files the same way when there are courses.
+- The teaching collection has no pages of its own (`output: false`).
+
+## Research page
+
+- `_pages/research.md`, section "Honors and Awards": rows from `_data/awards.yml` (newest first; `heading`, `dates`, `detail`,
+  `location`), rendered with the same row include as Teaching. Only research fellowships/awards go here; student-mentoring
+  awards (KU Undergraduate Research Awards, Graduate Research Consultant Award) were left out on purpose.
+- Section "Funding" (first on the page), subsection "External Funding": rows from `_data/funding.yml` (`heading` = project, `dates` = grant period, `detail` = role,
+  funder, award number, notes) plus `end` (YYYY-MM-DD; both funding lists are sorted by it, newest end date first).
+  Never show dollar amounts on the site.
+- Subsection "Internal Funding" (after External): rows from `_data/internal_funding.yml`, same fields plus `location` =
+  university (right column).
+
+## Presentations and Talks (`/talks/`)
+
+- `_pages/talks.html` renders sections from `_data/presentations.yml` ("Invited Research Presentations", "General Public Presentations"
+  — arts/outreach for a public audience — and "Other Presentations" — student, departmental, seminars), newest first,
+  as rows like the reference: `heading` = event, `dates`, `role` + `talk_title` (quoted; `paper` links a publication page),
+  `location`. Each section shows its first `shown` (5) entries; the rest are behind a "More ..." `<details>` toggle.
+- The old `_talks` collection / talkmap are not used.
+- Canceled talks and talks postponed to a date that is already listed (e.g. Householder XXI 2020 -> 2022, Acta Numerica
+  2021 -> 2022) are left out; only talks that took place are listed.
+
+## People (`/people/`, research group)
+
+- `_pages/people.html` renders `_data/people.yml`: sections Postdoctoral Researchers, Graduate Students
+  (PhD and Master's; `role` says which), Undergraduate Students (members as cards: photo or initials, name linked to `url`, role, dates, topic, co-advisor, "Website · CV" links from `url`/`cv`) and Alumni
+  (rows: name, degree + year, thesis, next position). Headings show even when empty. Photos go in `images/people/`.
+  Field list is at the top of `_data/people.yml`. Styles: `_sass/layout/_people.scss`.
 
 ## News (homepage)
 

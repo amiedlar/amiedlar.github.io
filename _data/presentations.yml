@@ -1,0 +1,328 @@
+# Presentations and Talks page. Each section shows its first `shown` entries; the rest open with "More ...".
+# Entry fields (as on the reference site): heading (event, bold), dates (right), role and talk_title (second line,
+# talk title in quotes; `paper` links it to a publication page), location (right column).
+- title: "Invited Research Presentations"
+  shown: 5
+  items:  # newest first
+    - heading: "International Summer School CEMRACS 2025 on Quantum Computing"
+      dates: "July 15–19, 2025"
+      role: "Invited Lecturer"
+      talk_title: "Advanced quantum algorithms for scientific computing"
+      location: "CNRS, Marseille, France"
+
+    - heading: "XXII Householder Symposium on Numerical Linear Algebra"
+      dates: "June 10, 2025"
+      role: "Invited Poster Presentation"
+      talk_title: "On the Convergence of the CROP-Anderson Acceleration Method"
+      paper: /publication/2024-01-01-on-the-convergence-of-crop-anderson-acceleration-method
+      location: "Cornell University, Ithaca, NY, USA"
+
+    - heading: "Workshop Mathematical and Numerical Analysis of Electronic Structure Models 2024, Institute of Applied Analysis and Numerical Simulations"
+      dates: "September 16, 2024"
+      role: "Invited Plenary Speaker"
+      talk_title: "Fundamentals of Quantum Numerical Linear Algebra"
+      location: "University of Stuttgart, Germany"
+
+    - heading: "Applied Mathematics Seminar, Department of Mathematics"
+      dates: "February 29, 2024"
+      role: "Invited"
+      talk_title: "Randomized Contour Integral Methods for Eigenvalue Problems"
+      location: "University of Kentucky, USA"
+
+    - heading: "Topical Workshop Acceleration and Extrapolation Methods, Institute for Computational and Experimental Research in Mathematics (ICERM)"
+      dates: "July 24, 2023"
+      role: "Opening Talk"
+      talk_title: "Acceleration and Extrapolation Methods: past and future directions"
+      location: "Providence, RI, USA"
+
+    - heading: "Workshop Numerical Linear Algebra, Foundations of Computational Mathematics (FoCM 2023)"
+      dates: "June 21, 2023"
+      role: "Invited"
+      talk_title: "Randomized Contour Integral Methods for Eigenvalue Problem"
+      location: "Paris, France"
+
+    - heading: "Minisymposium Randomized Linear Algebra in Scientific Computing, SIAM Conference on Computational Science and Engineering (CSE23)"
+      dates: "March 1, 2023"
+      role: "Invited"
+      talk_title: "Randomized Contour Integral Methods for Eigenvalue Problem"
+      location: "Amsterdam, The Netherlands"
+
+    - heading: "AMS Special Session on Perspectives on Eigenvalue Computation, Joint Mathematics Meeting (JMM23)"
+      dates: "January 7, 2023"
+      role: "Invited"
+      talk_title: "Challenges for Eigenvalue Computations in Breakthrough Applications"
+      location: "Boston, MA, USA"
+
+    - heading: "30 Years of Acta Numerica, The Mathematical Research and Conference Center (MRCC)"  # postponed from June 14–19, 2021 (COVID-19)
+      dates: "July 1, 2022"
+      role: "Invited"
+      talk_title: "A Rational Approximation Method for The Nonlinear Eigenvalue Problems"
+      location: "Będlewo, Poland"
+
+    - heading: "Householder Symposium XXI"
+      dates: "June 15, 2022"
+      role: "Invited Plenary Talk"
+      talk_title: "Towards Randomized Eigensolvers for Exascale Computing"
+      location: "Selva di Fasano, Italy"
+
+    - heading: "A Journey in Numerical Linear Algebra: A Workshop in Honor of Michele Benzi's 60th Birthday, Department of Mathematics, University of Pisa"
+      dates: "June 11, 2022"
+      role: "Invited Talk"
+      talk_title: "Towards Resilient and Robust Asynchronous Linear Systems Solvers for Edge Computing"
+      location: "Pisa, Italy"
+
+    - heading: "47th University of Arkansas Spring Lecture Series: Numerical Linear Algebra: from Scientific Computing to Data Science Applications"
+      dates: "May 5, 2022"
+      role: "Invited Speaker"
+      talk_title: "Challenges for Eigenvalue Computations in Breakthrough Applications"
+      location: "University of Arkansas, Fayetteville, USA"
+
+    - heading: "Numerical Methods and Scientific Computing (NMSC21), dedicated to Claude Brezinski for his 80th birthday and to Numerical Algorithms for its 30th birthday"
+      dates: "November 11, 2021"
+      role: "Invited"
+      talk_title: "Randomized FEAST Algorithm for Generalized Hermitian Eigenvalue Problems with Probabilistic Error Analysis"
+      location: "CIRM Luminy, France"
+
+    - heading: "Computational Mathematics and Applications Seminar"
+      dates: "October 28, 2021"
+      role: "Invited"
+      talk_title: "Randomized FEAST Algorithm for Generalized Hermitian Eigenvalue Problems with Probabilistic Error Analysis"
+      location: "University of Oxford, UK"
+
+    - heading: "Applied Mathematics and Scientific Computing Seminar"
+      dates: "October 20, 2021"
+      role: "Invited"
+      talk_title: "Randomized FEAST Algorithm for Generalized Hermitian Eigenvalue Problems with Probabilistic Error Analysis"
+      location: "Temple University, Philadelphia, USA"
+
+    - heading: "XII Forum of Partial Differential Equations, The Mathematical Research and Conference Center (MRCC)"
+      dates: "September 22, 2021"
+      role: "Keynote Speaker"
+      talk_title: "p-Hierarchical Enrichment of Eigenvalue/Eigenvector Approximations"
+      location: "Będlewo, Poland & Online"
+
+    - heading: "Numerical Analysis in Data Science Transition Virtual Workshop, The Statistical and Applied Mathematical Sciences Institute (SAMSI) Program on Numerical Analysis in Data Science"
+      dates: "May 26, 2021"
+      role: "Invited"
+      talk_title: "Randomized FEAST Algorithm for Generalized Hermitian Eigenvalue Problems with Probabilistic Error Analysis"
+      location: "Online"
+
+    - heading: "Minisymposium on Recent Developments of Adaptive Mesh Methods for Nonlinear Partial Differential Equations and Applications, 5th Annual Meeting of SIAM Central States Section"
+      dates: "October 20, 2019"
+      role: "Invited"
+      talk_title: "A Rational Approximation Method for Solving Acoustic Nonlinear Eigenvalue Problems"
+      paper: /publication/2020-01-01-a-rational-approximation-method-for-solving-acoustic
+      location: "Iowa State University, Ames, Iowa, USA"
+
+    - heading: "ERC Synergy EMC2 Kick-Off Meeting"
+      dates: "October 8, 2019"
+      role: "Invited"
+      talk_title: "Randomized Methods and the Future of Numerical Linear Algebra"
+      location: "Sorbonne Université, Paris, France"
+
+    - heading: "Minisymposium on Nonlinear and Multiparameter Eigenvalue Problems, International Congress on Industrial and Applied Mathematics (ICIAM)"
+      dates: "July 15, 2019"
+      role: "Invited"
+      talk_title: "The Nonlinear FEAST Algorithm"
+      location: "Valencia, Spain"
+
+    - heading: "Workshop on Mathematical and Numerical Analysis of Electronic Structure Models"
+      dates: "June 13, 2019"
+      role: "Invited"
+      talk_title: "A Rational Approximation Method for Large-Scale Nonlinear Eigenvalue Problems"
+      location: "Suzhou, China"
+
+    - heading: "Colloquium, Department of Physics and Astronomy"
+      dates: "March 18, 2019"
+      role: "Invited"
+      talk_title: "Chasing Eigenvalues in Breakthrough Applications"
+      location: "University of Kansas, Lawrence, USA"
+
+    - heading: "Minisymposium on Algorithms and Software for Nonlinear Eigenvalue Problems, SIAM Conference on Computational Science and Engineering (CSE19)"
+      dates: "February 28, 2019"
+      role: "Invited"
+      talk_title: "The Nonlinear FEAST Algorithm"
+      location: "Spokane, WA, USA"
+
+    - heading: "Applied Numerical Analysis Seminar, Department of Mathematics"
+      dates: "November 6, 2018"
+      role: "Invited"
+      talk_title: "The Nonlinear FEAST Algorithm for Large-Scale Nonlinear Eigenvalue Problems"
+      location: "Virginia Tech, Blacksburg, VA, USA"
+
+    - heading: "Numerical Analysis Seminar, Department of Mathematics"
+      dates: "October 29, 2018"
+      role: "Invited"
+      talk_title: "The Nonlinear FEAST Algorithm for Large-Scale Nonlinear Eigenvalue Problems"
+      location: "Texas A&M University, College Station, TX, USA"
+
+    - heading: "Midwest Mathematics Inclusion and Diversity Workshop for Undergraduates (MMIDWU 2018)"
+      dates: "October 20, 2018"
+      role: "Invited Featured Speaker and Panelist"
+      talk_title: "From Perron-Frobenius Theorem to Google PageRank Algorithm: The Power of Numerical Linear Algebra"
+      location: "Iowa State University, Ames, IA, USA"
+
+    - heading: "Minisymposium on Recent Advances in Numerical PDEs, 4th Annual Meeting of SIAM Central States Section"
+      dates: "October 6, 2018"
+      role: "Invited"
+      talk_title: "A Posteriori Error Estimates for hp-Adaptive Approximations of Non-Selfadjoint PDE Eigenvalue Problems"
+      location: "University of Oklahoma, OK, USA"
+
+    - heading: "Minisymposium on Recent Advances in Eigenvalue Solvers, SIAM Annual Meeting"
+      dates: "July 9, 2018"
+      role: "Invited"
+      talk_title: "The Nonlinear FEAST Algorithm"
+      location: "Portland, OR, USA"
+
+    - heading: "Minisymposium on PDE Eigenvalue Problems: Computational Modeling and Numerical Analysis, 6th European Conference on Computational Mechanics (ECCM 6) and 7th European Conference on Computational Fluid Dynamics (ECFD 7)"
+      dates: "June 11, 2018"
+      role: "Invited"
+      talk_title: "Flexible Krylov-type Methods for Electronic Structure Calculations"
+      location: "Glasgow, UK"
+
+    - heading: "Workshop on Adaptive Numerical Methods for Partial Differential Equations with Applications, Banff International Research Station (BIRS)"
+      dates: "May 28, 2018"
+      role: "Invited"
+      talk_title: "Reducing FEM Eigenvalue/Eigenvector Computations via p-hierarchical Enrichment"
+      location: "Banff, Canada"
+
+    - heading: "Colloquium, Department of Mathematics and Statistics"
+      dates: "October 20, 2017"
+      role: "Invited"
+      talk_title: "Flexible Eigenvalue Solvers for Electronic Structure Calculations"
+      location: "University of Missouri-Kansas City, MO, USA"
+
+    - heading: "Minisymposium on Model Reduction and Data Assimilation, 3rd Annual Meeting of SIAM Central States Section"
+      dates: "October 1, 2017"
+      role: "Invited"
+      talk_title: "Reducing FEM Computations of Eigenvalues via p-Hierarchical Enrichment"
+      location: "Fort Collins, CO, USA"
+
+    - heading: "Householder Symposium XX on Numerical Linear Algebra"
+      dates: "June 22, 2017"
+      role: "Invited"
+      talk_title: "Super-Converging Ritz Values via p-Hierarchical Inverse Iteration"
+      location: "Blacksburg, VA, USA"
+
+    - heading: "Minisymposium on Approximation of (Parametrized) Eigenvalue Problems, SIAM Conference on Computational Science and Engineering (CSE17)"
+      dates: "February 28, 2017"
+      role: "Invited"
+      talk_title: "Flexible Eigensolvers in Electronic Structure Calculations"
+      location: "Atlanta, GA, USA"
+
+    - heading: "Simulation for the Environment: Reliable and Efficient Numerical Algorithms Seminar, Institut National de Recherche en Informatique et Automatique (INRIA)"
+      dates: "January 5, 2017"
+      role: "Invited"
+      talk_title: "Moving Eigenvalues and Eigenvectors by Simple Perturbations"
+      location: "Paris, France"
+
+    - heading: "Workshop on Coupled Mathematical Models for Physical and Biological Nanoscale Systems and Their Applications, Banff International Research Station (BIRS)"
+      dates: "August 30, 2016"
+      role: "Invited"
+      talk_title: "Flexible Krylov-type Methods for Electronic Structure Eigenvalue Computations"
+      location: "Banff, Canada"
+
+    - heading: "Minisymposium on Structured Perturbation Theory in Linear Algebra, 7th European Congress of Mathematics (ECM)"
+      dates: "July 22, 2016"
+      role: "Invited"
+      talk_title: "Moving Eigenvalues and Eigenvectors by Simple Perturbations"
+      location: "Berlin, Germany"
+
+    - heading: "Workshop on Mathematical and Numerical Analysis of Electronic Structure Models, Centre Européen de Calcul Atomique et Moléculaire (CECAM)"
+      dates: "July 4–8, 2016"
+      role: "Invited"
+      talk_title: "Flexible Krylov Subspace Interior Eigensolvers"
+      location: "Roscoff, France"
+
+- title: "General Public Presentations"
+  shown: 5
+  items:  # newest first
+    - heading: "Art Exhibition, Spencer Museum of Art"
+      dates: "April 20–24, 2022"
+      role: "Invited"
+      talk_title: "Collective Entanglements"
+      detail: ", with J. Biggs (NY), D. Tapia Takaki (KU) and J. Orr (Spencer Museum of Art). <a href=\"https://www.spencerart.ku.edu/iari/inquiries/collective-entanglements#Exhibition\">Exhibition page</a>"
+      location: "University of Kansas, Lawrence, KS"
+
+    - heading: "The Arts at CERN – IARI Collaboration, Cristin Tierney Gallery, Live Stream Performance"
+      dates: "April 7, 2021"
+      role: "Invited"
+      talk_title: "Singular Value Decomposition – A research and development performance"
+      detail: ", featuring V. Fraley, E. Maneein and the SEVEN)SUNS String Quartet; with J. Biggs (NY), D. Tapia Takaki (KU), J. Orr (Spencer Museum of Art), C. Hurshman (KU) and O. Johnson (KU)"
+      location: "Online"
+
+    - heading: "Ground Works – The Alliance for the Arts in Research Universities, Special Session, 8th a2RU National Conference"
+      dates: "October 2020"
+      role: "Invited"
+      talk_title: "Dear Arts-Integration Community: A Letter of Inquiry from the CERN-IARI Collaboration"
+      detail: ", with J. Biggs (NY), D. Tapia Takaki (KU), J. Orr (Spencer Museum of Art) and C. Hurshman (KU)"
+      location: "Virtual Conference"
+
+    - heading: "Integrated Arts Research Initiative (IARI), Spencer Museum of Art"
+      dates: "June 12, 2020"
+      role: "Invited"
+      talk_title: "Wroclaw to Lawrence Numerical Analyst on the Road"
+      location: "University of Kansas, Lawrence, KS"
+
+- title: "Other Presentations"
+  shown: 5
+  items:  # newest first
+    - heading: "Digital Mini Workshop for the Master’s programme in Computer Simulations for Science and Engineering (COSSE), KTH, TU Delft and TU Berlin"
+      dates: "December 12, 2024"
+      role: "Invited"
+      talk_title: "Computational Mathematics - my ticket to the world"
+      location: "Online"
+
+    - heading: "Graduate Visiting Weekend 2020, Department of Mathematics"
+      dates: "February 29, 2020"
+      talk_title: "Numerical Analysis"
+      location: "University of Kansas"
+
+    - heading: "Jayhawk Mathematics Sneak Peek 2019, Department of Mathematics"
+      dates: "November 22, 2019"
+      talk_title: "Numerical Analysis"
+      location: "University of Kansas"
+
+    - heading: "Graduate Student Seminar, Department of Mathematics"
+      dates: "April 5, 2019"
+      talk_title: "Developing Your Professional Webpage"
+      detail: ", with Paul Cazeaux"
+      location: "University of Kansas"
+
+    - heading: "Computational and Applied Mathematics (CAM) Seminar, Department of Mathematics"
+      dates: "February 20, 2019"
+      talk_title: "The NLFEAST Algorithm for Large-Scale Nonlinear Eigenvalue Problems"
+      location: "University of Kansas"
+
+    - heading: "Graduate Visiting Weekend 2018, Department of Mathematics"
+      dates: "March 3, 2018"
+      talk_title: "Numerical Analysis"
+      location: "University of Kansas"
+
+    - heading: "Computational and Applied Mathematics (CAM) Seminar, Department of Mathematics"
+      dates: "February 14, 2018"
+      talk_title: "FEAST Algorithm and Flexible Krylov-type Eigensolvers"
+      location: "University of Kansas"
+
+    - heading: "EECS 639 Course, Department of Electrical Engineering and Computer Science"
+      dates: "September 22, 2017"
+      role: "Invited Guest Lecturer"
+      talk_title: "Why Numerical Linear Algebra?"
+      location: "University of Kansas"
+
+    - heading: "Institute for Mathematics and its Applications (IMA) Workshop on Mathematical Modeling of 2D Materials"
+      dates: "May 16–19, 2017"
+      role: "Poster presentation"
+      talk_title: "Flexible Krylov Subspace Interior Eigensolvers"
+      location: "Minneapolis, MN, USA"
+
+    - heading: "Computational and Applied Mathematics (CAM) Seminar, Department of Mathematics"
+      dates: "February 22, 2017"
+      talk_title: "On Matrix Nearness Problems: Distance to Delocalization"
+      paper: /publication/2015-01-01-on-matrix-nearness-problems-distance-to-delocalization
+      location: "University of Kansas"
+
+    - heading: "Association for Women in Mathematics (AWM) KU Student Chapter, Department of Mathematics"
+      dates: "September 13, 2016"
+      talk_title: "Applied Mathematics Across Borders"
+      location: "University of Kansas"

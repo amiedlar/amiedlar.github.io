@@ -1,0 +1,19 @@
+# Internal Funding on the Research page, sorted by `end` date, newest first (no amounts).
+# Each entry: heading (project, bold), dates (right), detail (role, program, notes), location (university, right column).
+- heading: "Misregistration: Sensorium driven, multimedia installations and live performances"
+  dates: "July 1, 2024 – June 30, 2025"
+  end: 2025-06-30  # sorts the list, newest end date first
+  detail: "Co-Principal Investigator, with P. Cazeaux (PI, VT), J. Biggs (Visual Artist, Cristin Tierney Gallery) and J. T. Upthegrove (VT). ICAT Major SEAD Grant FY 24-25, ICAT. Competitive."
+  location: "Virginia Tech"
+
+- heading: "Randomized Methods for Eigenvalue Problems"
+  dates: "July 1, 2019 – June 30, 2022"
+  end: 2022-06-30  # sorts the list, newest end date first
+  detail: "Principal Investigator. General Research Fund (GRF). Refereed/Competitive."
+  location: "University of Kansas"
+
+- heading: "On generalizing matrix nearness problems - distance to localization"
+  dates: "April 28, 2017 – April 28, 2019"
+  end: 2019-04-28  # sorts the list, newest end date first
+  detail: "Principal Investigator. New Faculty General Research Fund (NFGRF). Refereed."
+  location: "University of Kansas"

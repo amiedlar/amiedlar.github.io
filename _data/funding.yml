@@ -1,0 +1,41 @@
+# External Funding on the Research page, sorted by `end` date, newest first (no amounts).
+# Each entry: heading (project, bold), dates (right), detail (role, funder, award number, notes).
+- heading: "2023 CyberArts Program: Hidden Within"
+  dates: "June 1, 2023 – May 31, 2024"
+  end: 2024-05-31  # sorts the list, newest end date first
+  detail: "Principal Investigator, with P. Cazeaux (VT), J. Biggs (Visual Artist, Cristin Tierney Gallery) and J. T. Upthegrove (VT) as co-PIs. The Commonwealth Cyber Initiative (CCI) 2023 CyberArts Program."
+
+- heading: "NSF CAREER: Acceleration Methods, Iterative Solvers and Heterogeneous Architectures: The New Landscape of Large-Scale Scientific Simulations"
+  dates: "September 1, 2022 – August 31, 2027"
+  end: 2027-08-31  # sorts the list, newest end date first
+  detail: "Principal Investigator. Faculty Early Career Development Program (CAREER), National Science Foundation (NSF) Awards #2144181 and #2510018. Transferred to VT in September 2022."
+
+- heading: "AF: Small: Collaborative Research: Effective Numerical Algorithms and Software for Nonlinear Eigenvalue Problems"
+  dates: "October 1, 2018 – September 30, 2021"
+  end: 2021-09-30  # sorts the list, newest end date first
+  detail: "Principal Investigator. National Science Foundation (NSF) Award #1812927. Extended to September 30, 2022."
+
+- heading: "Analysis of Asynchronous Iterative Solvers"
+  dates: "December 23, 2019 – May 31, 2020"
+  end: 2020-05-31  # sorts the list, newest end date first
+  detail: "Principal Investigator. Lawrence Livermore National Laboratory."
+
+- heading: "Eigenvalue Computations in Modern Applications"
+  dates: "September 1, 2017 – August 31, 2019"
+  end: 2019-08-31  # sorts the list, newest end date first
+  detail: "Principal Investigator. Collaboration Grant for Mathematicians, Simons Foundation. Initially awarded to 2022, but ended 2019 due to receiving NSF grant."
+
+- heading: "The Midwest Numerical Analysis Day Conference 2017"
+  dates: "April 1, 2018 – March 31, 2019"
+  end: 2019-03-31  # sorts the list, newest end date first
+  detail: "Co-Principal Investigator, with X. Tu (PI) and E. Van Vleck, W. Huang and H. Xu (Co-PIs). National Science Foundation (NSF) Award #1747624. Extended to March 31, 2021."
+
+- heading: "Adaptive Finite Element Methods for Nonlinear Parameter Dependent Eigenvalue Problems in Photonic Crystals"
+  dates: "June 2014 – May 2017"
+  end: 2017-05-31  # sorts the list, newest end date first
+  detail: "Co-PI, with V. Mehrmann. Einstein Center for Mathematics Berlin (EC-Math)."
+
+- heading: "Adaptive methods for nonlinear eigenvalue problems with parameters"
+  dates: "March 2014 – November 2014"
+  end: 2014-11-30  # sorts the list, newest end date first
+  detail: "Principal Investigator. Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) Research Fellowship at the École Polytechnique Fédérale de Lausanne (EPFL)."

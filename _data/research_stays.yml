@@ -1,0 +1,76 @@
+# Invited Research Stays on the CV page, newest first.
+# Each entry: heading (role, bold), dates (right), detail (program / host), location (right column).
+- heading: "ICERM Research Fellow"
+  dates: "January 20 – April 24, 2026"
+  detail: "Spring 2026 Semester Program <em>Stochastic and Randomized Methods for Computational and Data Sciences</em>, Institute for Computational and Experimental Research in Mathematics (ICERM)"
+  location: "Brown University, Providence, RI, USA"
+
+- heading: "IPAM Senior Fellow"
+  dates: "September 11 – December 15, 2023"
+  detail: "Fall 2023 Long Program <em>Mathematical and Computational Challenges in Quantum Computing</em>, Institute for Pure and Applied Mathematics (IPAM)"
+  location: "UCLA, Los Angeles, CA, USA"
+
+- heading: "Participant"
+  dates: "March 8 – June 11, 2021"
+  detail: "IPAM Long Program <em>Tensor Methods and Emerging Applications to the Physical and Data Sciences</em>"
+  location: "Virtual Program"
+
+- heading: "Invited Researcher"
+  dates: "August 26, 2020 – May 26, 2021"
+  detail: "The Statistical and Applied Mathematical Sciences Institute (SAMSI) Program on Numerical Analysis in Data Science, Working Group III: Randomized Algorithms for Matrices and Data"
+  location: "Virtual Program"
+
+- heading: "Academic Visitor"
+  dates: "July 6–13, 2019"
+  detail: "Prof. Y. Maday (Sorbonne Université) and Prof. E. Cancès (INRIA and CERMICS, École des Ponts ParisTech), Station Biologique de Roscoff - CNRS - Sorbonne Université"
+  location: "Roscoff, France"
+
+- heading: "Academic Visitor"
+  dates: "June 23–30, 2019"
+  detail: "Prof. Y. Saad (Department of Computer Science and Engineering, University of Minnesota)"
+  location: "University of Minnesota, Minneapolis, USA"
+
+- heading: "Academic Visitor"
+  dates: "June 5–10, 2019"
+  detail: "Prof. Jungong Xue (Fudan University)"
+  location: "Fudan University, Shanghai, China"
+
+- heading: "Academic Visitor"
+  dates: "January 14–18, 2019"
+  detail: "IMA, Prof. M. Luskin (Department of Mathematics, University of Minnesota) and Prof. Y. Saad (Department of Computer Science and Engineering, University of Minnesota)"
+  location: "Minneapolis, MN, USA"
+
+- heading: "Visiting Professor"
+  dates: "June 5 – July 5, 2018"
+  detail: "Prof. L. Grigori (Institut National de Recherche en Informatique et Automatique (INRIA) Paris) and Prof. E. Cancès (École des Ponts ParisTech and INRIA Paris)"
+  location: "Paris, France"
+
+- heading: "Academic Visitor"
+  dates: "May 20 – July 28, 2017"
+  detail: "Prof. M. Luskin (Department of Mathematics, University of Minnesota)"
+  location: "Minneapolis, MN, USA"
+
+- heading: "Academic Visitor"
+  dates: "January 5–12, 2017"
+  detail: "Prof. Y. Maday (Laboratoire Jacques-Louis Lions, UPMC), Prof. M. Vohralík (INRIA Paris) and Prof. E. Cancès (École des Ponts ParisTech and INRIA Paris)"
+  location: "Paris, France"
+
+- heading: "Academic Visitor"
+  dates: "July 27 – September 21, 2015"
+  detail: "Prof. D. Kressner (Chair of Numerical Algorithms and High-Performance Computing (ANCHP), SB Mathematics Institute of Computational Science and Engineering (MATHICSE), EPFL)"
+  location: "Lausanne, Switzerland"
+
+- heading: "Academic Visitor"
+  dates: "March 6–13, 2015"
+  detail: "Prof. M. Luskin (Department of Mathematics, University of Minnesota)"
+  location: "Minneapolis, MN, USA"
+
+- heading: "Academic Visitor"
+  dates: "February 8–14, 2015"
+  detail: "Numerical Analysis Group, Department of Mathematics, Royal Institute of Technology (KTH)"
+  location: "Stockholm, Sweden"
+
+- heading: "Academic Visitor"
+  dates: "September 13–25, 2009"
+  detail: "Numerical Mathematics, Prof. R. Rannacher, Institute of Applied Mathematics, Ruprecht-Karls-Universität Heidelberg"
+  location: "Heidelberg, Germany"

@@ -1,0 +1,56 @@
+# Employment History on the CV page, newest first.
+# Each entry: heading (position, bold), dates (right), detail (department / grant), location (institution, right column).
+- heading: "Associate Professor with Tenure"
+  dates: "August 2022 – present"
+  detail: "Department of Mathematics"
+  location: "Virginia Tech, Blacksburg"
+
+- heading: "Associate Professor with Tenure"
+  dates: "August 2021 – August 2022"
+  detail: "Department of Mathematics"
+  location: "University of Kansas, Lawrence"
+
+- heading: "Assistant Professor"
+  dates: "August 2016 – August 2021"
+  detail: "Department of Mathematics"
+  location: "University of Kansas, Lawrence"
+
+- heading: "Postdoctoral Researcher"
+  dates: "November 2015 – August 2016"
+  detail: "Department of Computer Science and Engineering"
+  location: "University of Minnesota, Minneapolis"
+
+- heading: "Postdoctoral Research Assistant"
+  dates: "October 2015"
+  detail: "European Research Council (ERC) Research Grant <em>Modeling, Simulation and Control of Multi-Physics Systems</em>, Institute of Mathematics"
+  location: "Technische Universität Berlin, Germany"
+
+- heading: "Guest Professor"
+  dates: "April 2015 – September 2015"
+  detail: "Institute of Mathematics"
+  location: "Technische Universität Berlin, Germany"
+
+- heading: "Postdoctoral Research Assistant"
+  dates: "December 2014 – March 2015"
+  detail: "ERC Research Grant <em>Modeling, Simulation and Control of Multi-Physics Systems</em>, Institute of Mathematics"
+  location: "Technische Universität Berlin, Germany"
+
+- heading: "Postdoctoral Researcher"
+  dates: "March 2014 – November 2014"
+  detail: "SB Mathematics Institute of Computational Science and Engineering (MATHICSE), Chair of Numerical Algorithms and High-Performance Computing (ANCHP)"
+  location: "École Polytechnique Fédérale de Lausanne (EPFL), Switzerland"
+
+- heading: "Postdoctoral Research Assistant"
+  dates: "October 2012 – February 2014"
+  detail: "Research Group Modeling, Numerics, Differential Equations, Institute of Mathematics"
+  location: "Technische Universität Berlin, Germany"
+
+- heading: "W2 Deputy Professor (W2 Vertretungsprofessor) for Mathematical Optimization"
+  dates: "April 2012 – September 2012"
+  detail: "Carl-Friedrich-Gauß Faculty"
+  location: "Technische Universität Braunschweig, Germany"
+
+- heading: "Postdoctoral Research Assistant"
+  dates: "May 2011 – May 2012"
+  detail: "Research Group Modeling, Numerics, Differential Equations, Institute of Mathematics"
+  location: "Technische Universität Berlin, Germany"

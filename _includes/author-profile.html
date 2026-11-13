@@ -17,10 +17,10 @@
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
-    {% if author.address or author.office %}
-      <div class="author__address author__desktop">
-        {% if author.address %}<p><strong>Address:</strong><br>{{ author.address | strip | newline_to_br }}</p>{% endif %}
+    {% if author.bio or author.affiliation or author.address or author.office %}
+      <div class="author__bio">
+        {% if author.bio or author.affiliation %}<p>{{ author.bio }}{% if author.bio and author.affiliation %}<br>{% endif %}{{ author.affiliation | strip | newline_to_br }}</p>{% endif %}
+        {% if author.address %}<p><strong>Mail address:</strong><br>{{ author.address | strip | newline_to_br }}</p>{% endif %}
         {% if author.office %}<p><strong>Office:</strong> {{ author.office }}</p>{% endif %}
       </div>
     {% endif %}

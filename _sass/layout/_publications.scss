@@ -26,3 +26,11 @@ button.rs-pill { font: inherit; font-weight: 600; background: none; cursor: poin
 .rs-bibmodal__close { position: absolute; top: .4rem; right: .7rem; border: 0; background: none; font-size: 2rem; line-height: 1; color: var(--global-text-color-light); cursor: pointer; }
 .rs-bibmodal__close:hover { color: var(--global-text-color); }
 @media (max-width: 600px) { .rs-bibmodal__box { padding: 2.2rem 1.1rem 1.1rem; } .rs-bibmodal__text { font-size: .72rem; } }
+
+/* Section headings and entry titles, as on the reference site */
+.archive > h2 { margin-top: 2.2rem; }
+.archive h2 + hr { margin: .2rem 0; }
+.archive__item-title { font-weight: 600; }
+.archive__item-title a { color: var(--global-text-color); text-decoration: none; }
+.archive__item-title a:hover { color: var(--global-link-color); text-decoration: underline; text-underline-offset: 3px; }
+.rs-paper__authors .rs-me { color: var(--global-text-color); }

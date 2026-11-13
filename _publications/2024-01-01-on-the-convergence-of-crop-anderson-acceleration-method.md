@@ -8,4 +8,12 @@ venue: 'Preprint (in preparation)'
 paperurl: 'https://arxiv.org/abs/2410.03970'
 preprint: 'https://arxiv.org/abs/2410.03970'
 citation: 'Wan, N. and Międlar, A. (2024). "On the Convergence of CROP-Anderson Acceleration Method." <i>Preprint</i>. Preprint: <a href="https://arxiv.org/abs/2410.03970">arXiv</a>.'
+bibtex: |  # shown by the BibTeX button on the Publications page
+  @misc{Wan2024convergence,
+    author = {Wan, Ning and Międlar, Agnieszka},
+    title = {On the Convergence of CROP-Anderson Acceleration Method},
+    year = {2024},
+    eprint = {2410.03970},
+    archivePrefix = {arXiv}
+  }
 ---

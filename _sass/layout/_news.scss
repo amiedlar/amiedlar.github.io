@@ -12,3 +12,6 @@
 .news-more[open] summary::after { content: " ▴"; }
 .news-more[open] summary { margin-bottom: .5rem; }
 @media (max-width: 600px) { .news-list li { flex-direction: column; gap: 0; } }
+
+/* The News heading on the homepage: space after the About section, and always below the floated photo */
+.page__content #news { clear: both; margin-top: 2em; }

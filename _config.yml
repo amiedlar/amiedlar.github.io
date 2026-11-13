@@ -27,15 +27,16 @@ author:
   avatar           : "Miedlar.jpg"
   name             : "Agnieszka Międlar"
   pronouns         : # example: "she/her"  
-  bio              : "Associate Professor at Virginia Tech, Blacksburg, USA"
+  bio              : "Associate Professor"   # followed in the sidebar by address and office below
   location         : "Blacksburg, VA"
   employer         : "Virginia Tech"
   uri              : # URL
   email            : "amiedlar@vt.edu" 
-  address          : |   # shown under the name and title in the sidebar, one line per line
-    Department of Mathematics
+  affiliation      : |   # shown right under the title (bio) in the sidebar, one line per line
+    Department of Mathematics and the Computational Modeling and Data Analytics (CMDA)
     Virginia Tech
-    460 McBryde Hall, Virginia Tech
+  address          : |   # shown under the "Mail address:" heading in the sidebar, one line per line
+    460 McBryde Hall
     225 Stanger Street
     Blacksburg, VA 24061-1026
   office           : "416 Data and Decision Sciences Building"
@@ -71,10 +72,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
+  submitted:
+    title: 'Submitted'
   manuscripts:
     title: 'Journal articles'
   books:
-    title: 'Books'
+    title: 'Books and Book Chapters'
   conferences:
     title: 'Conference papers'
   preprints:

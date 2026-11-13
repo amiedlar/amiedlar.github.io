@@ -45,15 +45,29 @@
           {% if post.authors %}
             <p class="rs-paper__authors">{{ post.authors }}</p>
             <p>{% if post.status %}{{ post.status }}. {% endif %}{{ post.arxiv_id | default: post.venue }}{% if post.doi %}, doi:<a href="https://doi.org/{{ post.doi }}">{{ post.doi }}</a>{% endif %}, {{ post.date | default: "1900-01-01" | date: "%Y" }}.</p>
+          {% elsif post.citation contains '). "' %}
+            {% comment %} Split 'Authors (Year). "Title." Venue' into an authors line and a venue line, like the reference site {% endcomment %}
+            {% assign cite_head = post.citation | split: '). "' | first %}
+            {% assign cite_authors = cite_head | split: ' (' | first %}
+            {% assign cite_year = cite_head | split: ' (' | last %}
+            {% assign cite_tail = post.citation | remove_first: cite_head | remove_first: '). "' %}
+            {% assign cite_title = cite_tail | split: '." ' | first %}
+            {% assign cite_venue = cite_tail | remove_first: cite_title | remove_first: '." ' | split: ' Preprint: <a' | first | strip %}
+            {% assign cite_last = cite_venue | slice: -1 %}
+            {% if cite_last == '.' %}{% assign cite_len = cite_venue.size | minus: 1 %}{% assign cite_venue = cite_venue | slice: 0, cite_len %}{% endif %}
+            <p class="rs-paper__authors">{{ cite_authors | replace: 'Międlar, A.', '<span class="rs-me">Międlar, A.</span>' }}</p>
+            <p>{% if cite_venue != '' %}{{ cite_venue }}, {% endif %}{{ cite_year }}.</p>
           {% elsif post.citation %}
             <p>{{ post.citation }}</p>
           {% else %}
             <p><i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}.</p>
           {% endif %}
           {% assign preprint = post.arxiv | default: post.preprint %}
+          {% comment %} Paper: the published version (DOI) if known, else paperurl unless it is just the preprint {% endcomment %}
+          {% if post.doi %}{% assign paper = 'https://doi.org/' | append: post.doi %}{% elsif post.paperurl != preprint %}{% assign paper = post.paperurl %}{% else %}{% assign paper = nil %}{% endif %}
           <div class="rs-sw-list__badges">
             {% if post.bibtex %}<button type="button" class="rs-pill" data-bibtex>BibTeX</button><pre class="rs-bib" hidden>{{ post.bibtex | escape }}</pre>{% elsif post.bibtexurl %}<a class="rs-pill" href="{{ post.bibtexurl }}">BibTeX</a>{% endif %}
-            {% if post.paperurl and post.paperurl != preprint %}<a class="rs-pill" href="{{ post.paperurl }}">Paper</a>{% endif %}
+            {% if paper %}<a class="rs-pill" href="{{ paper }}">Paper</a>{% endif %}
             {% if preprint %}<a class="rs-pill" href="{{ preprint }}">Preprint</a>{% endif %}
             {% if post.slidesurl %}<a class="rs-pill" href="{{ post.slidesurl }}">Slides</a>{% endif %}
             {% if post.code %}<a class="rs-pill" href="{{ post.code }}">Code, Data &amp; Results</a>{% endif %}

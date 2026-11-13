@@ -11,14 +11,14 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Software"
-    url: /software/
-
-  - title: "Conference contributions"
-    url: /talks/
-
   - title: "Teaching"
     url: /teaching/
+
+  - title: "Presentations and Talks"
+    url: /talks/
+
+  - title: "Software"
+    url: /software/
 
   - title: "CV"
     url: /cv/

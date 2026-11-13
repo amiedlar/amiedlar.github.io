@@ -6,8 +6,9 @@ It is a Jekyll site based on the AcademicPages template (GitHub Pages).
 ## Reference design
 
 The site's structure should follow https://smithrgh.github.io (source: https://github.com/smithrgh/smithrgh.github.io, also an AcademicPages fork):
-- Main menu (`_data/navigation.yml`): Research, Publications, Teaching, Presentations and Talks (`/talks/`), Software, People, CV
-  (order and the "Presentations and Talks" label set at her request; they differ from the reference on purpose).
+- Main menu (`_data/navigation.yml`): Research, Publications, People, Teaching, Talks and Media (`/talks/`), CV.
+  Software is commented out (hidden) until `_pages/software.html` has content
+  (order and the "Talks and Media" label set at her request; they differ from the reference on purpose).
 - Publications page: grouped by category, numbered within each category, title linking to the publication page,
   an authors/citation line, then link pills (BibTeX pop-up, Preprint, Code, ...). No excerpts in the list.
 
@@ -65,7 +66,7 @@ The site's structure should follow https://smithrgh.github.io (source: https://g
 - Subsection "Internal Funding" (after External): rows from `_data/internal_funding.yml`, same fields plus `location` =
   university (right column).
 
-## Presentations and Talks (`/talks/`)
+## Talks and Media (`/talks/`; talks, presentations, press releases)
 
 - `_pages/talks.html` renders sections from `_data/presentations.yml` ("Invited Research Presentations", "General Public Presentations"
   — arts/outreach for a public audience — and "Other Presentations" — student, departmental, seminars), newest first,

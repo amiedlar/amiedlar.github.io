@@ -11,17 +11,18 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "People"
+    url: /people/
+
   - title: "Teaching"
     url: /teaching/
 
-  - title: "Presentations and Talks"
+  - title: "Talks and Media"
     url: /talks/
 
-  - title: "Software"
-    url: /software/
-
-  - title: "People"
-    url: /people/
+  # Software is hidden until the page has content; uncomment to show it again.
+  # - title: "Software"
+  #   url: /software/
 
   - title: "CV"
     url: /cv/

@@ -4,7 +4,7 @@
 #   - name: "First Last"
 #     photo: "people/first-last.jpg"   # file in images/people/; without it the card shows the person's initials
 #     url: "https://..."               # personal page; makes the name a link
-#     cv: "https://..."                # CV link; with url, shown as "Website · CV" on the card
+#     cv: "https://..."                # CV link; with url, shown as "Homepage · CV" on the card
 #     role: "PhD student, Mathematics" # position and program
 #     dates: "2023 – present"
 #     topic: "Randomized eigensolvers"  # research topic

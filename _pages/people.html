@@ -34,7 +34,7 @@ author_profile: true
               {% if p.dates %}<p class="person__dates">{{ p.dates }}</p>{% endif %}
               {% if p.topic %}<p class="person__topic">{{ p.topic }}</p>{% endif %}
               {% if p.coadvisor %}<p class="person__topic">Co-advised with {{ p.coadvisor }}</p>{% endif %}
-              {% if p.url or p.cv %}<p class="person__links">{% if p.url %}<a href="{{ p.url }}">Website</a>{% endif %}{% if p.url and p.cv %} · {% endif %}{% if p.cv %}<a href="{{ p.cv }}">CV</a>{% endif %}</p>{% endif %}
+              {% if p.url or p.cv %}<p class="person__links">{% if p.url %}<a href="{{ p.url }}">Homepage</a>{% endif %}{% if p.url and p.cv %} · {% endif %}{% if p.cv %}<a href="{{ p.cv }}">CV</a>{% endif %}</p>{% endif %}
             </div>
           </div>
         {% endfor %}

@@ -78,7 +78,7 @@ The site's structure should follow https://smithrgh.github.io (source: https://g
 ## People (`/people/`, research group)
 
 - `_pages/people.html` renders `_data/people.yml`: sections Postdoctoral Researchers, Graduate Students
-  (PhD and Master's; `role` says which), Undergraduate Students (members as cards: photo or initials, name linked to `url`, role, dates, topic, co-advisor, "Website · CV" links from `url`/`cv`) and Alumni
+  (PhD and Master's; `role` says which), Undergraduate Students (members as cards: photo or initials, name linked to `url`, role, dates, topic, co-advisor, "Homepage · CV" links from `url`/`cv`) and Alumni
   (rows: name, degree + year, thesis, next position). Headings show even when empty. Photos go in `images/people/`.
   Field list is at the top of `_data/people.yml`. Styles: `_sass/layout/_people.scss`.
 

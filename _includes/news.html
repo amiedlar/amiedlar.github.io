@@ -1,12 +1,23 @@
-<section class="news-section">
-   <h2>News</h2>
-  <ul class="news-list">
-    {% assign news = site.data.news | sort: "date" | reverse %}
-    {% for item in news limit:4 %}
-      <li>
-        <span class="news-date">{{ item.date | date: "%b %Y" }}</span>
-        <span>{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</span>
-      </li>
-    {% endfor %}
-  </ul>
-</section>
+{%- comment -%}
+  News list for the homepage, newest first, from _data/news.yml.
+  The first `limit` items (default 10) are shown; the rest open with "More news".
+  Usage: {% include news.html %} or {% include news.html limit=5 %}
+{%- endcomment -%}
+{%- assign news = site.data.news | sort: "date" | reverse -%}
+{%- assign shown = include.limit | default: 10 -%}
+<div class="news">
+<ul class="news-list">
+{%- for item in news -%}
+{%- if forloop.index0 == shown %}
+</ul>
+<details class="news-more">
+<summary>More news</summary>
+<ul class="news-list">
+{%- endif %}
+<li><span class="news-date">{{ item.date | date: "%b %Y" }}</span> <span class="news-text">{{ item.text | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span></li>
+{%- endfor %}
+</ul>
+{%- if news.size > shown %}
+</details>
+{%- endif %}
+</div>

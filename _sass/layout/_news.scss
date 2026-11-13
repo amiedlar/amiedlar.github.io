@@ -1,0 +1,14 @@
+/* ==========================================================================
+   NEWS (homepage list from _data/news.yml)
+   ========================================================================== */
+
+.news-list { list-style: none; margin: 0 0 .5rem; padding: 0; }
+.news-list li { display: flex; gap: 1rem; margin: 0 0 .5rem; }
+.news-date { flex: 0 0 5.5em; color: var(--global-text-color-light); font-variant-numeric: tabular-nums; }
+.news-text { flex: 1; min-width: 0; }
+.news-more summary { display: inline-block; cursor: pointer; color: var(--global-link-color); font-weight: 600; margin: .25rem 0 .75rem; }
+.news-more summary::-webkit-details-marker { display: none; }
+.news-more summary::after { content: " ▾"; }
+.news-more[open] summary::after { content: " ▴"; }
+.news-more[open] summary { margin-bottom: .5rem; }
+@media (max-width: 600px) { .news-list li { flex-direction: column; gap: 0; } }

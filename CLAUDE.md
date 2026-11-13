@@ -27,6 +27,22 @@ The site's structure should follow https://smithrgh.github.io (source: https://g
 - Still left from the template: sample attachments in `files/` (`paper1–3.pdf`, `slides1–3.pdf`, `bibtex1.bib`; nothing links to them),
   and unused sample pages/collections not in the menu (portfolio, blog posts in `_posts/`, `_pages/markdown.md`, etc.).
 - `_pages/about.md` (home page) holds the bio; author sidebar info is under `author:` in `_config.yml`.
+- Sidebar shows name, title (`bio`), then `address` (multi-line, one line per line) and `office` from `_config.yml`,
+  rendered in `_includes/author-profile.html`; like location/employer, the address block is shown on wide screens only.
+
+## Layout and phones
+
+- `_sass/layout/_frame.scss` (ported from the reference): navy header/footer and side edges spanning the window
+  (colour: `--frame-color`), content uses the full width next to the sidebar, and the phone/tablet rules
+  (menu is one swipeable row, no ☰; sidebar shows photo + links without "Follow"; homepage photo `.about__photo` moves above the text).
+- Keep every change phone-friendly; check at ~375px width as well as desktop.
+
+## News (homepage)
+
+- Items live in `_data/news.yml` (`date: YYYY-MM-DD`, `text:` Markdown allowed); order in the file doesn't matter, they're sorted newest first.
+- `_includes/news.html`, included under the "News" heading in `_pages/about.md`, shows the 10 most recent;
+  older ones are under a "More news" toggle (`<details>`, no JS). Change the count with `{% include news.html limit=N %}`.
+  Styles in `_sass/layout/_news.scss`.
 
 ## Building
 

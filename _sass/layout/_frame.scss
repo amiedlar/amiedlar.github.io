@@ -1,0 +1,96 @@
+/* ==========================================================================
+   FRAME AND RESPONSIVE LAYOUT (after https://smithrgh.github.io)
+   Header, footer and slim side edges are navy and span the whole window;
+   the page content uses the full width next to the sidebar.
+   ========================================================================== */
+
+:root { --frame-color: #16304d; --frame-text: #eef3f9; --frame-text-muted: #b9c8da; }
+html[data-theme="dark"] { --frame-color: #1a2c43; --frame-text: #e8eef6; --frame-text-muted: #aebdd0; }
+
+/* Keep the footer at the bottom of the window on short pages */
+body { min-height: 100vh; display: flex; flex-direction: column; }
+body > #main { width: 100%; flex: 1 0 auto; }
+
+/* Header */
+.masthead {
+  background: var(--frame-color); border-bottom: 0;
+  --global-masthead-link-color: var(--frame-text); --global-masthead-link-color-hover: #ffffff;
+}
+.masthead .greedy-nav, .masthead .greedy-nav button, .masthead .masthead__menu-item { background: var(--frame-color); color: var(--frame-text); }
+.greedy-nav .visible-links a:before { background: var(--frame-text) !important; }
+.masthead .hidden-links { --global-masthead-link-color: var(--global-text-color); --global-masthead-link-color-hover: var(--global-link-color); }
+
+/* Menu links: reserve the underline of the current page so nothing shifts; "Home" looks like the other links */
+.masthead .greedy-nav .visible-links a { border-bottom: 2px solid transparent; }
+.masthead .greedy-nav .visible-links .masthead__menu-item.selected a,
+.masthead .greedy-nav .visible-links .masthead__menu-item.selected a:hover { color: #ffffff; border-bottom-color: #ffffff; }
+.masthead .masthead__menu-item--lg { padding-right: 0; }
+.masthead .greedy-nav .visible-links li:first-child { font-weight: normal; }
+.masthead .masthead__menu-item--lg a { font-family: $sans-serif; font-weight: 500; font-size: 1em; letter-spacing: normal; }
+
+/* Menu: one row that swipes sideways when it doesn't fit (no ☰ menu at any width) */
+.greedy-nav > button { display: none !important; }
+.greedy-nav .visible-links { overflow-x: auto; scrollbar-width: none; }
+.greedy-nav .visible-links::-webkit-scrollbar { display: none; }
+
+/* Footer */
+.page__footer { flex-shrink: 0; float: none; margin-top: 3rem; background: var(--frame-color); color: var(--frame-text-muted); border-top: 0; }
+.page__footer a, .page__footer a:visited, .page__footer .social-icons i { color: var(--frame-text); }
+.page__footer a:hover { color: #ffffff; }
+.page__footer-copyright { color: var(--frame-text-muted); }
+
+/* Slim navy edges on computers */
+@media (min-width: 900px) {
+  body::before, body::after { content: ""; position: fixed; top: 0; bottom: 0; width: 10px; background: var(--frame-color); z-index: 30; pointer-events: none; }
+  body::before { left: 0; }
+  body::after { right: 0; }
+}
+
+/* Computers: content uses the space the theme keeps free for a right sidebar;
+   the photo fills the sidebar's width, with a gap before the page text */
+@media (min-width: 1024px) {
+  .page { padding-right: 0; }
+  .author__avatar img { width: 100%; max-width: 100%; height: auto; }
+  .sidebar { padding-right: .75rem; }
+}
+
+/* Homepage photo next to the About text */
+.about__photo { float: right; width: 220px; margin: 0 0 1.5em 2em; border-radius: 4px; box-shadow: 0 2px 12px rgba(0, 0, 0, .12); }
+
+/* ==========================================================================
+   Phones and tablets (below 1024px)
+   ========================================================================== */
+@media (max-width: 1023px) {
+  /* Menu: the light/dark switch comes first so it's always in view; the right edge fades to show there's more */
+  .greedy-nav .visible-links {
+    display: flex; align-items: center; gap: .1rem; white-space: nowrap;
+    -webkit-overflow-scrolling: touch; padding-right: 2.5rem;
+    -webkit-mask-image: linear-gradient(90deg, #000 82%, transparent); mask-image: linear-gradient(90deg, #000 82%, transparent);
+  }
+  .greedy-nav .visible-links li { flex: 0 0 auto; }
+  .greedy-nav .visible-links a { color: var(--frame-text); }
+  #theme-toggle { order: -1; margin-right: 2rem; }
+
+  /* Sidebar: larger photo, and the location and links listed instead of hidden behind "Follow" */
+  .author__avatar img { width: 120px; max-width: 120px; height: 120px; object-fit: cover; }
+  .author__content { vertical-align: middle; }
+  .sidebar { padding-top: 0 !important; }
+  .author__urls-wrapper { display: block; padding-top: 1rem; cursor: default; }
+  .author__urls-wrapper button { display: none; }
+  .author__urls { display: flex !important; flex-wrap: wrap; gap: .45rem 1.3rem; position: static; margin: 0; padding: 0; border: 0; background: none; box-shadow: none; z-index: auto; }
+  /* Location and employer on the first line, the links on the second */
+  .author__urls::after { display: none !important; }
+  .author__urls::before { content: "" !important; display: block !important; order: 1; flex-basis: 100%; height: 0; width: auto; margin: 0; position: static; border: 0; }
+  .author__urls li { order: 2; }
+  .author__urls li.author__desktop { order: 0; }
+  .sidebar .author__urls .author__desktop { display: block; }
+  .author__urls li, .author__urls a { margin: 0; padding: 0; font-size: .9rem; }
+}
+
+@media (max-width: 600px) {
+  /* Photo above the About text instead of squeezing it */
+  .about__photo { float: none; display: block; width: 160px; margin: 0 auto 1.25em; }
+}
+
+/* Smallest phones: slightly smaller sidebar photo so the name beside it isn't squeezed */
+@media (max-width: 359px) { .author__avatar img { width: 100px; max-width: 100px; height: 100px; } }

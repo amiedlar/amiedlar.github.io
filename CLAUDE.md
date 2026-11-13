@@ -18,7 +18,10 @@ The site's structure should follow https://smithrgh.github.io (source: https://g
 
 ## Current state (Nov 2026)
 
-- Menu matches the reference. Research (`_pages/research.md`) and Software (`_pages/software.html`) are empty stubs;
+- Menu matches the reference and is in the header of every page, homepage included (`_includes/masthead.html`).
+  All items have the `persist` class so they never collapse into the ☰ button; the first item's label is
+  `masthead_title` ("Home") in `_config.yml`.
+- Research (`_pages/research.md`) and Software (`_pages/software.html`) are empty stubs;
   Talks (`/talks/`, titled "Conference contributions"), Teaching and CV (`_pages/cv.md`) are empty and waiting for real content.
 - Template sample entries in `_talks/`, `_teaching/` and the sample publication were removed.
 - Still left from the template: sample attachments in `files/` (`paper1–3.pdf`, `slides1–3.pdf`, `bibtex1.bib`; nothing links to them),

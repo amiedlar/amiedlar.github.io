@@ -10,6 +10,7 @@
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
 title                    : "Agnieszka Międlar"
+masthead_title           : "Home" # first item of the main menu; defaults to the site title
 title_separator          : "-"
 name                     : &name "Agnieszka Międlar"
 description              : &description "Associate Professor at Department of Mathematics and Division of Computational Modeling and Data Analytics, Virginia Tech, USA"   

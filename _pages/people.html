@@ -13,7 +13,7 @@ author_profile: true
       <div class="rs-cvrow">
         <p class="rs-cvrow__head">{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</p>
         <p class="rs-cvrow__date">{{ p.degree }}</p>
-        <p class="rs-cvrow__detail">{% if p.thesis %}‘{{ p.thesis }}’{% endif %}</p>
+        <p class="rs-cvrow__detail">{% if p.thesis %}{% if p.degree contains 'PhD' %}PhD Thesis{% elsif p.degree contains 'Master' %}Master's Thesis{% else %}Thesis{% endif %}: <em>{{ p.thesis }}</em>{% endif %}</p>
         <p class="rs-cvrow__loc">{{ p.now }}</p>
       </div>
     {% endfor %}

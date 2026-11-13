@@ -14,7 +14,7 @@
 #   - name: "First Last"
 #     url: "https://..."
 #     degree: "PhD, Mathematics, 2024"  # or "Postdoc, 2021 – 2023"
-#     thesis: "Thesis title"
+#     thesis: "Thesis title"           # shown as "PhD Thesis: ..." / "Master's Thesis: ..." (from degree), in italics
 #     now: "Postdoctoral researcher at ..."   # first position after the group
 
 - title: "Postdoctoral Researchers"
@@ -36,4 +36,7 @@
 
 - title: "Alumni"
   alumni: true
-  members: []
+  members:
+    - name: "Dr. Ning Wan"
+      degree: "PhD Mathematics, Virginia Tech, December 2025"
+      thesis: "Analysis of Acceleration Techniques and Fast Nonlinear Solvers"

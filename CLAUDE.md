@@ -57,6 +57,7 @@ The site's structure should follow https://smithrgh.github.io (source: https://g
 
 ## Research page
 
+- Starts with "Research Interests" (intro paragraph + five bullet areas), text approved by her; edit only on request.
 - `_pages/research.md`, section "Honors and Awards": rows from `_data/awards.yml` (newest first; `heading`, `dates`, `detail`,
   `location`), rendered with the same row include as Teaching. Only research fellowships/awards go here; student-mentoring
   awards (KU Undergraduate Research Awards, Graduate Research Consultant Award) were left out on purpose.

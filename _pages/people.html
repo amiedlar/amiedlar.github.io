@@ -8,8 +8,20 @@ author_profile: true
 {% comment %} Research group from _data/people.yml: current members as cards, alumni as rows {% endcomment %}
 {% for section in site.data.people %}
   <h2 class="rs-cvhead">{{ section.title }}</h2>
+  {% comment %} Sort members alphabetically by last name, then first name ("Dr." is ignored) {% endcomment %}
+  {% assign keys = "" %}
+  {% for p in section.members %}
+    {% assign words = p.name | remove: "Dr. " | split: " " %}
+    {% assign keys = keys | append: words.last | append: " " | append: words.first | downcase | append: "|" | append: forloop.index0 | append: ";" %}
+  {% endfor %}
+  {% assign keys = keys | split: ";" | sort %}
+  {% assign members = "" | split: "" %}
+  {% for k in keys %}
+    {% assign i = k | split: "|" | last | plus: 0 %}
+    {% assign members = members | push: section.members[i] %}
+  {% endfor %}
   {% if section.alumni %}
-    {% for p in section.members %}
+    {% for p in members %}
       <div class="rs-cvrow">
         <p class="rs-cvrow__head">{% if p.url %}<a href="{{ p.url }}">{{ p.name }}</a>{% else %}{{ p.name }}{% endif %}</p>
         <p class="rs-cvrow__date">{{ p.degree }}</p>
@@ -20,7 +32,7 @@ author_profile: true
   {% else %}
     {% if section.members.size > 0 %}
       <div class="people-grid">
-        {% for p in section.members %}
+        {% for p in members %}
           <div class="person">
             {% if p.photo %}
               <img class="person__photo" src="{{ p.photo | prepend: '/images/' | prepend: base_path }}" alt="{{ p.name }}">

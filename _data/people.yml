@@ -32,7 +32,16 @@
       coadvisor: "S. W. R. Werner"
 
 - title: "Undergraduate Students"
-  members: []
+  members:
+    - name: "Sarah Skaggs"
+      photo: "people/sarah-skaggs.jpg"
+      role: "Undergraduate Student, Applied Computational Mathematics & Computational Modeling and Data Analytics"
+      dates: "August 2025 – present"
+      topic: "Finite element discretization and adaptive methods for partial differential equations"
+    - name: "Liam Curtis"
+      role: "Undergraduate Student, Mathematics and Computational Modeling & Data Analytics"
+      dates: "January 2026 – present"
+      topic: "Anderson acceleration for fixed-point problems"
 
 - title: "Alumni"
   alumni: true

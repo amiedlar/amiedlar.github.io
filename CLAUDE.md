@@ -81,7 +81,10 @@ The site's structure should follow https://smithrgh.github.io (source: https://g
 
 - `_pages/people.html` renders `_data/people.yml`: sections Postdoctoral Researchers, Graduate Students
   (PhD and Master's; `role` says which), Undergraduate Students (members as cards: photo or initials, name linked to `url`, role, dates, topic, co-advisor, "Homepage · CV" links from `url`/`cv`) and Alumni
-  (rows: name, degree + year, thesis, next position). Headings show even when empty. Photos go in `images/people/`.
+  (rows: name, degree + year, thesis, next position). Headings show even when empty.
+  Within each section, people are sorted alphabetically by last name, then first name (done in the template, ignoring "Dr. "),
+  so the order in the YAML file doesn't matter. Photos go in `images/people/`, resized to a 400 px JPEG
+  (`sips -s format jpeg -s formatOptions 85 -Z 400 in.png --out name.jpg`); don't commit multi-MB originals.
   Field list is at the top of `_data/people.yml`. Styles: `_sass/layout/_people.scss`.
 
 ## News (homepage)

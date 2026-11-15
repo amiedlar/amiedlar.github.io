@@ -9,6 +9,7 @@
 #     dates: "2023 – present"
 #     topic: "Randomized eigensolvers"  # research topic
 #     coadvisor: "Prof. N. N."          # shown as "Co-advised with ..."
+#     coadvisor_url: "https://..."      # co-advisor's page; links the co-advisor's name (the part before the first comma)
 #
 # Alumni (shown as rows) — fields:
 #   - name: "First Last"
@@ -30,6 +31,12 @@
       dates: "August 2024 – present"
       topic: "Randomized tensor methods and numerical linear algebra for model reduction"
       coadvisor: "S. W. R. Werner"
+    - name: "Margaret Smith"
+      role: "Master's Student"
+      dates: "August 2026 – present"
+      topic: "Low- and Mixed-Precision NLA"
+      coadvisor: "Grey Ballard, Wake Forest University"
+      coadvisor_url: "https://users.wfu.edu/ballard/index.html"
 
 - title: "Undergraduate Students"
   members:
@@ -39,9 +46,13 @@
       dates: "August 2025 – present"
       topic: "Finite element discretization and adaptive methods for partial differential equations"
     - name: "Liam Curtis"
+      photo: "people/liam-curtis.jpg"
       role: "Undergraduate Student, Mathematics and Computational Modeling & Data Analytics"
       dates: "January 2026 – present"
       topic: "Anderson acceleration for fixed-point problems"
+    - name: "Zorawar Gulati"
+      role: "Undergraduate Student, Mathematics and Computer Science"
+      dates: "September 2026 – present"
 
 - title: "Alumni"
   alumni: true
